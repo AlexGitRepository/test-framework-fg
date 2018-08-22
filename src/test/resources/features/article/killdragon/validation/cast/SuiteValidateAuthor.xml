@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Feature Validate article 'To Kill a dragon'" verbose="1" >
+    <test name="Suite Validate Cast section" >
+        <classes>
+            <class name="features.article.killdragon.validation.cast.SuiteValidateAuthor"/>
+        </classes>
+    </test>
+</suite>
